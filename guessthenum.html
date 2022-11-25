@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="styles/style-guessnumber.css"/>
+        <title>Guess the Number</title>
+        <script src="scripts/guess-number.js" async></script>
+    </head>
+    <body>
+        <h2>Number guessing</h2>
+        <p>We have selected a random number between 1 and 100.
+            So if you can guess it in 10 turns or fewer. We'll tell you if your guess
+            was too low or too high.
+        </p>
+        <span>Enter a guess: <input class="number" type="number">
+            <button>Submit guess</button></span>
+        <p>Previous guesses: </p><p class="prevguess"></p>
+        <span style="color: blue;" class="answer"></span>
+    </body>
+</html>
